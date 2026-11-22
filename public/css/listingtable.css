@@ -1,0 +1,29 @@
+/* Variables for the form and table */
+/* Listing table (converted from form.css) */
+.listing-reg {
+  width: 800px;
+  margin: 2em auto;
+  padding: 2em;
+}
+
+.listing-table {
+  width: 100%;
+  background: rgb(255, 255, 255);
+  border-collapse: collapse;
+}
+.listing-table th,
+.listing-table td {
+  padding: 10px;
+  border-bottom: 1px solid rgb(102, 102, 102);
+  text-align: center;
+}
+.listing-table th {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.listing-table td:first-child,
+.listing-table th:first-child {
+  border-right: 1px solid rgb(102, 102, 102);
+}
+
+/*# sourceMappingURL=listingtable.css.map */

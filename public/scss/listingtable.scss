@@ -1,0 +1,32 @@
+@import "colors.scss";
+@import "variables.scss";
+
+/* Listing table (converted from form.css) */
+.listing-reg {
+    width: 800px;
+    margin: 2em auto;
+    padding: 2em;
+}
+
+.listing-table {
+    width: 100%;
+    background: $mainColor;
+    border-collapse: collapse;
+
+    th,
+    td {
+        padding: 10px;
+        border-bottom: 1px solid $tableBorder;
+        text-align: center;
+    }
+
+    th {
+        background: $tableHead;
+        color: $mainColor;
+    }
+
+    td:first-child,
+    th:first-child {
+        border-right: 1px solid $tableBorder;
+    }
+}

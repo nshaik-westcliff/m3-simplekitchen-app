@@ -1,0 +1,44 @@
+/* Variables for the form and table */
+/* Registration form (converted from form.css) */
+#form-area {
+  float: left;
+  width: 800px;
+  text-align: center;
+  padding-top: 6em;
+}
+#form-area h3 {
+  color: rgb(49, 49, 48);
+}
+
+.form-registration {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+.form-registration input {
+  width: 100%;
+  margin: 0 0 10px;
+}
+
+/* Errors */
+.my-errors {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  color: rgb(51, 51, 51);
+  font-size: 1.2rem;
+  display: table;
+}
+.my-errors li {
+  margin: 0 0 1rem;
+}
+.my-errors li:before {
+  content: "! Error : ";
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=registration.css.map */

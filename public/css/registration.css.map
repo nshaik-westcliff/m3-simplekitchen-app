@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../scss/variables.scss","../scss/registration.scss","../scss/colors.scss"],"names":[],"mappings":"AAAA;ACGA;AACA;EACI;EACA;EACA;EACA;;AAEA;EACI,OCJC;;;ADQT;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;;;AAIR;AACA;EACI;EACA;EACA;EACA,OD9BO;EC+BP;EACA;;AAEA;EACI;;AAEA;EACI;EACA,OD1CC;EC2CD","file":"registration.css"}

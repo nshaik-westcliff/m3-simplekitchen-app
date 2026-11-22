@@ -1,0 +1,48 @@
+@import "colors.scss";
+@import "variables.scss";
+
+/* Registration form (converted from form.css) */
+#form-area {
+    float: left;
+    width: 800px;
+    text-align: center;
+    padding-top: 6em;
+
+    h3 {
+        color: $color3;
+    }
+}
+
+.form-registration {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+
+    input {
+        width: 100%;
+        margin: 0 0 10px;
+    }
+}
+
+/* Errors */
+.my-errors {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    color: $textDark;
+    font-size: 1.2rem;
+    display: table;
+
+    li {
+        margin: 0 0 1rem;
+
+        &:before {
+            content: "! Error : ";
+            color: $errorColor;
+            font-weight: bold;
+        }
+    }
+}
